@@ -609,18 +609,36 @@
     <section class="contact" id="contact">
         <div class="container">
             <h2>Get in Touch</h2>
-            <!-- Replace YOUR_EMAIL@isleofaeaea.com with your actual email -->
-            <form class="contact-form" id="contactForm" action="https://formspree.
+            <p>Ready to book your glamping adventure? Have questions about Circe? We'd love to hear from you!</p>
+            
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Tell us about your planned stay..."></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="Airbnb">🏠</a>
+            </div>
             <p>&copy; 2025 Circe the Airstream. All rights reserved.</p>
             <p>Colonial Beach, Virginia</p>
-            <div class="social-links">
-                <a href="https://www.facebook.com/CirceTheAirstream/" target="_blank" title="Facebook">📘</a>
-                <a href="https://maps.app.goo.gl/ZkKzzHt37For3GLE6" target="_blank" title="Location">📍</a>
-            </div>
         </div>
     </footer>
 
